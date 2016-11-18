@@ -184,53 +184,16 @@ h2{
 .pd0{
 	padding: 0;
 }
-#barrita1{
-	background-color: #FD5B02;
-	padding: 3px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px 10px 1px 1px;
-}
-#barrita2{
-	background-color: #FD5B02;
-	padding: 3px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px 20px 1px 1px;
-}
-#barrita3{
-	background-color: #FD5B02;
-	padding: 3px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px 40px 1px 1px;
-}
-#barrita4{
-	background-color: #FD5B02;
-	padding: 3px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px 30px 1px 1px;
-}
-#barrita5{
-	background-color: #FD5B02;
-	padding: 3px;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px 15px 1px 1px;
-}
+
 .imbg{
 	background-image: url("../img/icon-bg.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 150px;
+	background-color: #161526;
+	width: 50%;
+	margin-left: 25%;
 } 
-.imbg2{
-	background-image: url("../img/img-divider-placeholder.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 200px;
-}
 .imbg3{
 	background-image: url("../img/img-divider-img.jpg");
 	background-size: cover;
@@ -247,7 +210,7 @@ h2{
 .text-orange{
 	color:#FE5B13;
 }
-.bgcol{
+f.bgcol{
 	background-color: #121611;
 	opacity: 0.5;
 }
@@ -300,4 +263,19 @@ font-size:18px;
 .redes{
 	width: 100%;
 }
+}
+
+
+.zoom:hover {
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.zoom2:hover {
+opacity: 0.7;
+}
+.fondo:hover{
+	background-color: #333445;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
